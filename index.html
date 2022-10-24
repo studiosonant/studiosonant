@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background: #ef0f19;">
+<html style="background: #ef0f19;--bs-warning: #ef0f19;--bs-warning-rgb: 239,15,25;">
 
 <head>
     <meta charset="utf-8">
@@ -22,21 +22,24 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="56">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="color: #1f1c1f;background: rgba(255,255,255,0.05);border-top-style: none;border-bottom: 1px dashed rgba(255,255,255,0.13);">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style="color: #1f1c1f;background: rgba(255,255,255,0.05);border-top-style: none;border-bottom: 1px dashed rgba(255,255,255,0.13);">
         <div class="container"><a class="navbar-brand" href="#page-top" style="color: #ffffff;font-size: 27px;"><img src="assets/img/SONANTRBD.png" style="width: 50px;margin-right: 13px;">Studio Sonant</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler float-end" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item" style="margin-right: 10px;"><button class="btn btn-primary" type="button" style="border-radius: 5px;background: rgb(0,0,0);border-style: none;border-top-style: none;border-right-style: none;border-bottom: 0px none rgb(0,0,0);border-left-style: none;--bs-primary: #ef0f19;--bs-primary-rgb: 239,15,25;" data-bs-target="#games">games</button></li>
-                    <li class="nav-item" style="margin-right: 10px;"><button class="btn btn-primary" type="button" style="border-radius: 5px;background: rgb(0,0,0);border-style: none;border-top-style: none;border-right-style: none;border-bottom: 0px none rgb(0,0,0);border-left-style: none;--bs-primary: #ef0f19;--bs-primary-rgb: 239,15,25;" data-bs-target="#games">shorties</button></li>
-                    <li class="nav-item"><button class="btn btn-primary" type="button" style="border-radius: 5px;background: rgb(0,0,0);border-style: none;border-top-style: none;border-right-style: none;border-bottom: 0px none rgb(0,0,0);border-left-style: none;margin-right: 10px;--bs-primary: #ef0f19;--bs-primary-rgb: 239,15,25;">about</button></li>
+                    <li class="nav-item" style="margin-right: 10px;"><a class="nav-link" href="#games" style="color: rgb(255,255,255);font-size: 16px;background: #000000;border-radius: 5px;border-style: none;height: 36px;padding-top: 6px;padding-right: 12px;padding-bottom: 6px;padding-left: 12px;margin-right: 10px;">games</a></li>
+                    <li class="nav-item" style="margin-right: 10px;"><a class="nav-link" href="#shorties" style="color: rgb(255,255,255);font-size: 16px;background: #000000;border-radius: 5px;border-style: none;height: 36px;padding-top: 6px;padding-right: 12px;padding-bottom: 6px;padding-left: 12px;margin-right: 10px;">shorties</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://studiosonant.wordpress.com" style="color: rgb(255,255,255);font-size: 16px;background: #000000;border-radius: 5px;border-style: none;height: 36px;padding-top: 6px;padding-right: 12px;padding-bottom: 6px;padding-left: 12px;margin-right: 10px;" target="_blank">blogthing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" style="color: rgb(255,255,255);font-size: 16px;background: #000000;border-radius: 5px;border-style: none;height: 36px;padding-top: 6px;padding-right: 12px;padding-bottom: 6px;padding-left: 12px;margin-right: 10px;">about</a></li>
+                    <li class="nav-item"></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background: rgb(239,15,25);height: 800px;">
+    <header id="about" class="masthead" style="background: rgb(239,15,25);height: 800px;">
         <div class="container h-100" style="margin-top: 40px;">
             <div class="row h-100" style="border-top: 1px none #ee161f ;">
                 <div class="col-lg-5 col-xl-6 my-auto"><img src="assets/img/slogo3dred.png" style="width: 700px;"></div>
@@ -51,7 +54,7 @@
             </div>
         </div>
     </header>
-    <section style="background: #000000;">
+    <section id="games" style="background: #000000;">
         <div class="container" style="height: 800px;">
             <div class="row h-100" style="border-top: 1px none #ee161f ;">
                 <div class="col-lg-6 col-xl-5 my-auto">
@@ -67,7 +70,7 @@
                 <div class="col-lg-5 col-xl-6 my-auto"><img src="assets/img/kripg.png" style="width: 700px;"></div>
             </div>
         </div>
-        <section style="background: #ee1620;">
+        <section id="shorties" style="background: #ee1620;">
             <div class="container h-100" style="margin-top: 40px;">
                 <div class="row h-100" style="border-top: 1px none #ee161f ;">
                     <div class="col-lg-6 col-xl-5 offset-xl-0 my-auto">
